@@ -1,7 +1,11 @@
 require "sinatra"
 require "sinatra/activerecord"
 require "sinatra/reloader"
-# require_relative './models/attt'
+require_relative './models/user'
+require_relative './models/favorite'
+require_relative './models/post'
+require_relative './models/posttag'
+require_relative './models/tag'
 
 
 set :database, {adapter: 'postgresql', database: 'polyglot'}

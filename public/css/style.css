@@ -8,15 +8,24 @@ a.blog-header-logo{
 	font-size: 25px;
 	color: black;
 }
+
+
 section{
 	height: 600px;
+}
+.row {
+    margin:0
 }
 
 div#learn-text{
 	width:100%;
 	background-color: #403c3c;
 	color:white;
+}
 
+#imgdiv{
+	padding:0;
+	margin:0;
 }
 
 /*homepage logged-in*/
@@ -66,4 +75,19 @@ div#learn-text{
   }
 }
 
+@media (max-width: 768px){
+	div#learn-text{
+	width:100%;
+	background-color: #403c3c;
+	color:white;
+	flex-basis: auto;
+	
+  }
+}
+@media (max-width: 768px){
+	#imgdiv{
+	width:100%;
+	flex-basis: auto;
+}
+}
 /*-------------------------------------------*/
