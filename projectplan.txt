@@ -1,0 +1,22 @@
+POLYGLOT Rumblr
+
+-DESIGN-
+
+	Text colors should be black(charcoal) and grey. 
+	Layout should be clean and minimal.
+
+
+---colors---
+
+---fonts---
+
+---navigation---
+MAIN NAV: 
+Menu: Learn LangFam Grammatic PolyLife Resources 
+
+
+**PAGES**
+
+
+
+	
