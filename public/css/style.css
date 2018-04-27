@@ -34,6 +34,21 @@ div#learn-text{
 	width: 50%;
 }
 
+.entrybtn{
+	margin-right: 10px;
+}
+
+.profilebtn{
+	margin-right: 10px;
+}
+
+/*Login form*/
+
+.container.loginform{
+	margin-top: 80px;
+	width: 450px;
+}
+
 
 
 /*TEMPLATE  COMPONENTS CSS*/
