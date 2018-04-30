@@ -2,7 +2,7 @@ body{
 
 }
 
-/* homepage universal*/
+/* HOMEPAGE UNIVERAL*/
 a.blog-header-logo{
 	font-family: 'Abril Fatface';
 	font-size: 25px;
@@ -21,6 +21,7 @@ div#learn-text{
 	width:100%;
 	background-color: #403c3c;
 	color:white;
+	text-align: center;
 }
 
 #imgdiv{
@@ -28,10 +29,21 @@ div#learn-text{
 	margin:0;
 }
 
-/*homepage logged-in*/
+.mainslide{
+	height: 400px;
+	width: 350px;
+	opacity: .7;
+}
+.learntitle{
+	margin-top: 7%;
+}
+
+/*HOMEPAGE LOGGED-IN*/
 
 .jumbotron.feature{
 	width: 50%;
+	background: linear-gradient(to bottom right, #41a99e, #23f5a7);
+	color: white;
 }
 
 .entrybtn{
@@ -41,13 +53,102 @@ div#learn-text{
 .profilebtn{
 	margin-right: 10px;
 }
+.card.myarticle{
+	margin: 7px 20px 5px 20px;
+}
 
-/*Login form*/
+img.card-img-top{
+	width: 100%;
+	height: 50%;
+    vertical-align: middle;
+    border-style: none;
+    border-top-left-radius: calc(.25rem - 1px);
+    border-top-right-radius: calc(.25rem - 1px);
+}
+
+div.card.home{
+	height: 560px;
+	margin:  10px 18px 10px 0px;
+}
+
+.homejumbo{
+	 background-image: url("/images/handsomeman.jpeg");
+	 background-repeat: no-repeat;
+	 background-size: cover;	
+	 height: 430px;
+}
+
+
+
+
+
+/*LOGIN FORM*/
 
 .container.loginform{
 	margin-top: 80px;
 	width: 450px;
 }
+
+/*PROFILE */
+.zeepic{
+	margin-top: -5%;
+	margin-right: 5%;
+	height: 250px;
+	width: 250px;
+}
+
+/* BLOG POSTS PAGE */
+.container.blog{
+	width: 80%;	
+	margin-top: 15px;
+}
+
+.postbox{
+	margin-top: 55px;
+	border:grey 2px;
+}
+
+/*SOCIAL*/
+.socialbox{
+	position:absolute;
+	left: 12%;
+	width: 80%;
+}
+
+.socialcard{
+	margin: 7px 15px 5px 15px;
+}
+
+
+
+/* NEW POST */
+
+
+.newpost{
+	width: 100%;
+	height: 500px;
+	margin-left: 30%;
+}
+
+.title{
+	margin-top: 5%;
+	width: 450px;
+}
+
+.post{
+	margin-top: 3%;
+	width: 450px;
+	
+}
+.date{
+	margin-top: 1%;
+	width: 450px;
+}
+.publish{
+	margin-left: 1.5%;
+	background:linear-gradient(to bottom right, #296f68, #23c5f5);
+}
+
 
 
 
