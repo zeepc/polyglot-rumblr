@@ -1,10 +1,10 @@
 require "sinatra"
 require "sinatra/activerecord"
-require_relative './models/user'
-require_relative './models/favorite'
-require_relative './models/post'
-require_relative './models/posttag'
-require_relative './models/tag'
+require_relative './models/User'
+require_relative './models/Favorite'
+require_relative './models/Post'
+require_relative './models/Posttag'
+require_relative './models/Tag'
 
 
 # set :database, {adapter: 'postgresql', database: 'polyglot'}
