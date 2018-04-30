@@ -7,7 +7,7 @@ require_relative './models/posttag'
 require_relative './models/tag'
 
 
-set :database, {adapter: 'postgresql', database: 'polyglot'}
+# set :database, {adapter: 'postgresql', database: 'polyglot'}
 enable :sessions
 
 
