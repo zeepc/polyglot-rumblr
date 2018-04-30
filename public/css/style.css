@@ -137,7 +137,7 @@ div.card.home{
 
 .post{
 	margin-top: 3%;
-	width: 450px;
+	width: 400px;
 	
 }
 .date{
@@ -148,6 +148,25 @@ div.card.home{
 	margin-left: 1.5%;
 	background:linear-gradient(to bottom right, #296f68, #23c5f5);
 }
+
+div.ql-toolbar{
+	margin-top: 3%;
+	width:450px;
+}
+div.ql-editor{
+	width: 450px;
+}
+
+div.ql-show{
+	width: 450px;
+}
+ textarea#editor{
+ 	width: 450px;
+ }
+
+ input.form-control{
+ 	width: 450px;
+ }
 
 
 
