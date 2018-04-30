@@ -126,11 +126,11 @@ end
 
 
 #Edit post from /id/edit route (U)
-# put 'myblog/:id' do
-#     @specific_post = Post.find(params[:id])
-#     @specific_post.update(title:params[:title],body:params[:body],date: params[:date],user_id: session[:id])
-#     redirect :'/myblog'
-# end
+put 'myblog/:id' do
+    @specific_post = Post.find(params[:id])
+    @specific_post.update(title:params[:title],body:params[:body],date: params[:date],user_id: session[:id])
+    redirect :'/myblog'
+end
   
 # Delete Attendee (D)
 delete '/admin' do
