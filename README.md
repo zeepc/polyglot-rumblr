@@ -1,5 +1,6 @@
 # polyglot-rumblr
 An online blog platform and knowledge resource for polyglots and language lovers.
+https://thepolyglot.herokuapp.com/
 
 # FEATURES
 
@@ -19,3 +20,15 @@ Writing or editing a post is easy with a rich text editor by https://summernote.
 <div align="center">
     <img src="/project/richtext.png" width="400px"</img> 
 </div>
+<hr>
+
+Cancel your account at the click of a button. 
+<div align="center">
+    <img src="/project/adminpage.png" width="400px"</img> 
+</div>
+<hr>
+## Technologies
+Ruby
+Sinatra
+ActiveRecord
+Heroku
