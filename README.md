@@ -16,7 +16,7 @@ When clicking on one of your blog posts on the home page, you can see the post i
 </div>
 <hr>
 
-Writing or editing a post is easy with a rich text editor by https://summernote.org/
+Writing or editing a post is easy with a rich text editor by [Summernote](https://summernote.org/)
 <div align="center">
     <img src="/project/richtext.png" width="400px"</img> 
 </div>
@@ -27,8 +27,9 @@ Cancel your account at the click of a button.
     <img src="/project/adminpage.png" width="400px"</img> 
 </div>
 <hr>
+
 ## Technologies
-Ruby
-Sinatra
-ActiveRecord
-Heroku
+* Ruby
+* Sinatra
+* ActiveRecord
+* Heroku
