@@ -119,7 +119,7 @@ end
 
 
 # Render form for editing a new post (U)
-get 'myblog/:id/edit' do 
+get '/myblog/:id/edit' do 
     @specific_post = Post.find(params[:id])
     erb :edit, :layout => :layout_loggedin
 end
