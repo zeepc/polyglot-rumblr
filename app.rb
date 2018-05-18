@@ -146,4 +146,10 @@ delete '/admin' do
     redirect :'/signup'
 end
 
+#Delete Post
+
+delete '/myblog/:id' do
+  @specific_post = Post.destroy(params[:id])
+  redirect '/myblog'
+end
 

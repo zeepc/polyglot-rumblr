@@ -214,11 +214,24 @@ input.form-control{
 	flex-basis: auto;
 	
   }
+    .jumbotron.feature{
+	width: 100%;
+	background: linear-gradient(to bottom right, #41a99e, #23f5a7);
+	color: white;
+	}
+ div.card.home{
+ 	width: 100%;
+ 	margin-left: 10%;
+ 	margin-bottom: 5%;
+ }
+
 }
 @media (max-width: 768px){
 	#imgdiv{
 	width:100%;
 	flex-basis: auto;
-}
+	}
+
+
 }
 /*-------------------------------------------*/
