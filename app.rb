@@ -81,7 +81,7 @@ end
 
  post '/new' do 
  	@post = Post.create(title:params[:title],body:params[:body],date: params[:date],user_id: session[:id])
- 	redirect :'/admin'	
+ 	redirect :'/home'	
  end
 
 
