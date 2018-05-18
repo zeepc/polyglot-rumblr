@@ -2,6 +2,10 @@
 An online blog platform and knowledge resource for polyglots and language lovers.
 https://thepolyglot.herokuapp.com/
 
+# To Test
+username : zee
+password: 123123
+
 # FEATURES
 
 Personalized homepage when logged in. Your most recent articles will appear at the bottom of the page.
