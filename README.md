@@ -37,3 +37,4 @@ Cancel your account at the click of a button.
 * Sinatra
 * ActiveRecord
 * Heroku
+* [Summernote](https://summernote.org/)
